@@ -1951,3 +1951,145 @@ if (matchMedia('only screen and (max-width: 480px)').matches)
 
 </body>
 </html>
+
+
+**********************************************
+**********************************************
+**********************************************
+
+li.post.photoset h2, li.post.text h2{
+    font-family: "jaf-bernino-sans",sans-serif;
+font-style: normal;
+font-weight: 300 !important;
+letter-spacing:2px;
+text-transform:uppercase; 
+}
+    li.post.photo div.caption p{
+    font-size:12px !important;
+    line-height: 18px !important;
+    font-style: italic;
+    text-align: center !important;
+    }
+    
+    li.post.quote div.source{
+    font-family: "freight-big-pro",sans-serif;
+font-style: normal;
+font-weight: 500 !important;
+letter-spacing:0px;
+text-transform:none; 
+font-size:18px;
+}
+   div.postFooter ul.postStats li.tags a.nobold{
+       font-size: 11px !important;
+       margin-bottom: 9.168000221252441px !important;
+padding-bottom: 9px !important;
+padding-top: 9px !important;
+   }
+       
+    .tags a {
+    display:none!important;
+    font-family: "jaf-bernino-sans",sans-serif;
+font-style: normal;
+font-weight: 700 !important;
+letter-spacing:1px;
+text-transform:uppercase; 
+font-size:10px !important;
+    background-color: transparent;
+    padding: .273rem !important;
+    border-radius: 0px
+}
+
+.post > p:first-of-type{font-size:1.625rem !important; line-height:2.25rem !important;
+    font-style:italic;
+}
+
+div#sb-site div#postBottom.hideOnPrint div h3 a, div#sb-site div#postBottom.hideOnPrint div h3{
+    font-family: "brandon-grotesque" !important;
+font-style: normal;
+font-weight: 900;
+    letter-spacing:7px;
+}
+
+div#sb-site div.row ol.posts li.post.text div.postHead h3#title.title a{
+    font-size:50px !important;
+    font-weight:bold;}
+    
+    body,html{-webkit-font-smoothing: antialiased;
+text-rendering: optimizelegibility;}
+
+/*li.post.text p*/.post > p{font-family: "freight-text-pro",sans-serif;
+font-size:22px !important;
+line-height: 33px !important;
+}
+
+div#sb-site div#header.fullRow.header p{font-family: "jaf-bernino-sans",sans-serif;
+font-style: normal;
+font-weight: 300;
+letter-spacing:5px;
+text-transform:uppercase; 
+font-size:14px;
+}
+
+h1#bigTitle a{font-family: "brandon-grotesque",sans-serif;
+font-style: normal;
+font-weight: 900;
+letter-spacing:13px;}
+
+h1, h2, h3, h4, h5, h6{font-family: "jaf-bernino-sans",sans-serif;
+}
+
+ body, ol.notes li.note blockquote a, .postAuthor, .postStats, ol.notes li {font-family: "jaf-bernino-sans",sans-serif;
+}
+
+.quote, .pDropCap, pQuote {font-family: "freight-big-pro",sans-serif !important;
+font-style: normal;
+font-weight: 300 !important;}
+
+.post p, .chat li, blockquote, #recentSummary, .source{font-family: "freight-text-pro",sans-serif;
+font-style: normal;
+font-weight: 400;}
+
+/*h3{
+    font-family: "jaf-bernino-sans",sans-serif; 
+  text-transform:uppercase;letter-spacing:0px;font-weight:700;font-size:20px;margin-bottom: -15px !important;color: #222222 !important;
+font-style: normal;
+font-weight: bold;
+}*/
+
+hr{
+    display: block;
+width: 14%;
+margin: 50px auto 40px auto;
+border: 0;
+border-top: 1px solid #dededc;
+}
+
+h6{text-transform:uppercase;letter-spacing:0px;font-weight:700;font-size:20px;color: #222222 !important;}
+
+h4{text-transform:uppercase;letter-spacing:2px;font-weight:700;font-size:18px;margin-bottom: -5px !important;color: rgba(0, 0, 0, 0.7) !important;}
+
+h5{ margin-bottom: -15px !important; border-bottom: none !important; font-style: normal !important; font-family: "jaf-bernino-sans", Helvetica, Arial, sans-serif !important; text-transform: uppercase; color: #b3b3b1 !important; letter-spacing: .1em !important; font-size: 14px !important;padding:10px 0 !important;font-weight: 400 !important;
+}
+
+h5:before{content:'' !important;display:block !important;position:absolute !important;margin-top:-1px !important;height:3px !important;width:30px !important;background:#ebebeb !important;
+}
+/*h3:before{content:'' !important;display:block !important;position:absolute !important;margin-top:-10px !important;height:1px !important;width:30px !important;background:#ebebeb !important;
+}*/
+
+h6{font-size: 16px !important;
+/*border-top: 1px solid rgba(179, 179, 177, 0.4) !important;*/
+padding-top: 10px !important;
+font-style: normal !important;
+font-weight: normal !important;
+height: 16px !important;
+letter-spacing: 1px !important;
+line-height: 16px !important;
+clear: both; margin-bottom: 10px !important; font-weight:600 !important;font-family:"jaf-bernino-sans", Helvetica, Arial, sans-serif !important; text-transform: uppercase !important; color: rgb(179, 179, 177) !important;}
+
+h6:before{content:'' !important;display:block !important;position:absolute !important;margin-top:-10px !important;height:1px !important;width:30px !important;background:#dededc !important;
+}
+
+a.readMoreButton, div.postFooter ul.postStats li a.nobold, div.postFooter ul.postStats li{
+    font-family:"jaf-bernino-sans", Helvetica, Arial, sans-serif !important; text-transform: uppercase !important; color: rgb(179, 179, 177) !important;
+font-size:12px !important;
+}
