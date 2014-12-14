@@ -1,0 +1,725 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"><html><head>
+ 
+<!---- © THEME #22: SAY ELLO | MADE BY ZELDATHEMES.TUMBLR.COM
+       © ELLO 2014, ALL RIGHTS RESERVED
+ 
+   * Do NOT redistribute this theme.
+   * Do NOT claim this theme as your own work.
+   * Do NOT move/remove the credit from this theme.
+   * Minor/major changes to this theme ARE allowed.
+       
+I claim no ownership of Ello or their website design. All coding
+below is of my own work with the exception of third-party scripts.---->
+ 
+<!---------------------- DEFAULT VARIABLES --------------------------->
+ 
+<!-- IMAGE -->
+ 
+<meta name="image:Header" content=""/>
+<meta name="image:Icon" content=""/>
+ 
+<!-- TEXT -->
+ 
+<meta name="text:Your URL" content="your-url-here"/>
+ 
+<meta name="text:About Title" content="short title?"/>
+<meta name="text:About Headline" content="a quick headline here!"/>
+
+<meta name="text:Home Link Name" content="Home"/>
+<meta name="text:Link 1 Url" content="http://"/>
+<meta name="text:Link 1 Name" content="Link 1"/>
+<meta name="text:Link 2 Url" content="http://"/>
+<meta name="text:Link 2 Name" content="Link 2"/>
+<meta name="text:Link 3 Url" content="http://"/>
+<meta name="text:Link 3 Name" content="Link 3"/>
+<meta name="text:Link 4 Url" content="http://"/>
+<meta name="text:Link 4 Name" content="Link 4"/>
+<meta name="text:Link 5 Url" content="http://"/>
+<meta name="text:Link 5 Name" content="Link 5"/>
+<meta name="text:Link 6 Url" content="http://"/>
+<meta name="text:Link 6 Name" content="Link 6"/>
+<meta name="text:Link 7 Url" content="http://"/>
+<meta name="text:Link 7 Name" content="Link 7"/>
+<meta name="text:Link 8 Url" content="http://"/>
+<meta name="text:Link 8 Name" content="Link 8"/>
+<meta name="text:Link 9 Url" content="http://"/>
+<meta name="text:Link 9 Name" content="Link 9"/>
+ 
+<!-- IF -->
+ 
+<meta name="if:400pxPosts" content="0"/>
+<meta name="if:500pxPosts" content="1"/>
+
+<meta name="if:PostBackground" content="1"/>
+<meta name="if:SidebarBackground" content="1"/>
+
+<meta name="if:HeaderBackgroundStretch" content="1"/>
+ 
+<meta name="if:AskBoxTab" content="1"/>
+<meta name="if:RoundedIconImage" content="1"/>
+<meta name="if:ShowTags" content="1"/>
+ 
+<meta name="if:ShowLink4" content="1"/>
+<meta name="if:ShowLink5" content="1"/>
+<meta name="if:ShowLink6" content="1"/>
+<meta name="if:ShowLink7" content="1"/>
+<meta name="if:ShowLink8" content="1"/>
+<meta name="if:ShowLink9" content="1"/>
+ 
+<!-- SELECT -->
+ 
+<meta name="select:Title Size" content="14px" title="Really Tiny"/>
+<meta name="select:Title Size" content="16px" title="Tiny"/>
+<meta name="select:Title Size" content="18px" title="Small"/>
+<meta name="select:Title Size" content="20px" title="Medium"/>
+<meta name="select:Title Size" content="22px" title="Large"/>
+<meta name="select:Title Size" content="24px" title="Huge"/>
+<meta name="select:Title Size" content="26px" title="Really Huge"/>
+ 
+<meta name="select:Header Height" content="0px" title="No Header"/>
+<meta name="select:Header Height" content="100px" title="100px"/>
+<meta name="select:Header Height" content="200px" title="200px"/>
+<meta name="select:Header Height" content="300px" title="300px"/>
+<meta name="select:Header Height" content="400px" title="400px"/>
+<meta name="select:Header Height" content="500px" title="500px"/>
+
+<meta name="select:Header Background Position" content="top left" title="Top-Left"/>
+<meta name="select:Header Background Position" content="top center" title="Top-Center"/>
+<meta name="select:Header Background Position" content="top right" title="Top-Right"/>
+<meta name="select:Header Background Position" content="center left" title="Center-Left"/>
+<meta name="select:Header Background Position" content="center center" title="Center-Center"/>
+<meta name="select:Header Background Position" content="center right" title="Center-Right"/>
+<meta name="select:Header Background Position" content="bottom left" title="Bottom-Left"/>
+<meta name="select:Header Background Position" content="bottom center" title="Bottom-Center"/>
+<meta name="select:Header Background Position" content="bottom right" title="Bottom-Right"/>
+ 
+<meta name="select:Home Link Icon" content="fa-folder-open" title="Folder"/>
+<meta name="select:Home Link Icon" content="fa-globe" title="Globe"/>
+<meta name="select:Home Link Icon" content="fa-home" title="House"/>
+<meta name="select:Home Link Icon" content="fa-refresh" title="Refresh"/>
+
+<meta name="select:Link 1 Icon" content="fa-at" title="At Symbol"/>
+<meta name="select:Link 1 Icon" content="fa-book" title="Book"/>
+<meta name="select:Link 1 Icon" content="fa-calendar" title="Calendar"/>
+<meta name="select:Link 1 Icon" content="fa-camera" title="Camera"/>
+<meta name="select:Link 1 Icon" content="fa-clock-o" title="Clock"/>
+<meta name="select:Link 1 Icon" content="fa-code" title="Code"/>
+<meta name="select:Link 1 Icon" content="fa-comments-o" title="Comments"/>
+<meta name="select:Link 1 Icon" content="fa-envelope" title="Envelope"/>
+<meta name="select:Link 1 Icon" content="fa-facebook-square" title="Facebook"/>
+<meta name="select:Link 1 Icon" content="fa-flickr" title="Flickr"/>
+<meta name="select:Link 1 Icon" content="fa-google" title="Google"/>
+<meta name="select:Link 1 Icon" content="fa-heart" title="Heart"/>
+<meta name="select:Link 1 Icon" content="fa-instagram" title="Instagram"/>
+<meta name="select:Link 1 Icon" content="fa-lastfm-square" title="Last.FM"/>
+<meta name="select:Link 1 Icon" content="fa-lightbulb-o" title="Lightbulb"/>
+<meta name="select:Link 1 Icon" content="fa-bolt" title="Lightning"/>
+<meta name="select:Link 1 Icon" content="fa-moon-o" title="Moon"/>
+<meta name="select:Link 1 Icon" content="fa-music" title="Music Note"/>
+<meta name="select:Link 1 Icon" content="fa-pencil" title="Pencil"/>
+<meta name="select:Link 1 Icon" content="fa-pinterest" title="Pinterest"/>
+<meta name="select:Link 1 Icon" content="fa-rss" title="RSS"/>
+<meta name="select:Link 1 Icon" content="fa-search" title="Search"/>
+<meta name="select:Link 1 Icon" content="fa-skype" title="Skype"/>
+<meta name="select:Link 1 Icon" content="fa-smile-o" title="Smiley"/>
+<meta name="select:Link 1 Icon" content="fa-star" title="Star"/>
+<meta name="select:Link 1 Icon" content="fa-tags" title="Tags"/>
+<meta name="select:Link 1 Icon" content="fa-twitch" title="Twitch"/>
+<meta name="select:Link 1 Icon" content="fa-twitter" title="Twitter"/>
+<meta name="select:Link 1 Icon" content="fa-umbrella" title="Umbrella"/>
+<meta name="select:Link 1 Icon" content="fa-user" title="User"/>
+<meta name="select:Link 1 Icon" content="fa-youtube-play" title="YouTube"/>
+
+<meta name="select:Link 2 Icon" content="fa-at" title="At Symbol"/>
+<meta name="select:Link 2 Icon" content="fa-book" title="Book"/>
+<meta name="select:Link 2 Icon" content="fa-calendar" title="Calendar"/>
+<meta name="select:Link 2 Icon" content="fa-camera" title="Camera"/>
+<meta name="select:Link 2 Icon" content="fa-clock-o" title="Clock"/>
+<meta name="select:Link 2 Icon" content="fa-code" title="Code"/>
+<meta name="select:Link 2 Icon" content="fa-comments-o" title="Comments"/>
+<meta name="select:Link 2 Icon" content="fa-envelope" title="Envelope"/>
+<meta name="select:Link 2 Icon" content="fa-facebook-square" title="Facebook"/>
+<meta name="select:Link 2 Icon" content="fa-flickr" title="Flickr"/>
+<meta name="select:Link 2 Icon" content="fa-google" title="Google"/>
+<meta name="select:Link 2 Icon" content="fa-heart" title="Heart"/>
+<meta name="select:Link 2 Icon" content="fa-instagram" title="Instagram"/>
+<meta name="select:Link 2 Icon" content="fa-lastfm-square" title="Last.FM"/>
+<meta name="select:Link 2 Icon" content="fa-lightbulb-o" title="Lightbulb"/>
+<meta name="select:Link 2 Icon" content="fa-bolt" title="Lightning"/>
+<meta name="select:Link 2 Icon" content="fa-moon-o" title="Moon"/>
+<meta name="select:Link 2 Icon" content="fa-music" title="Music Note"/>
+<meta name="select:Link 2 Icon" content="fa-pencil" title="Pencil"/>
+<meta name="select:Link 2 Icon" content="fa-pinterest" title="Pinterest"/>
+<meta name="select:Link 2 Icon" content="fa-rss" title="RSS"/>
+<meta name="select:Link 2 Icon" content="fa-search" title="Search"/>
+<meta name="select:Link 2 Icon" content="fa-skype" title="Skype"/>
+<meta name="select:Link 2 Icon" content="fa-smile-o" title="Smiley"/>
+<meta name="select:Link 2 Icon" content="fa-star" title="Star"/>
+<meta name="select:Link 2 Icon" content="fa-tags" title="Tags"/>
+<meta name="select:Link 2 Icon" content="fa-twitch" title="Twitch"/>
+<meta name="select:Link 2 Icon" content="fa-twitter" title="Twitter"/>
+<meta name="select:Link 2 Icon" content="fa-umbrella" title="Umbrella"/>
+<meta name="select:Link 2 Icon" content="fa-user" title="User"/>
+<meta name="select:Link 2 Icon" content="fa-youtube-play" title="YouTube"/>
+
+<meta name="select:Link 3 Icon" content="fa-at" title="At Symbol"/>
+<meta name="select:Link 3 Icon" content="fa-book" title="Book"/>
+<meta name="select:Link 3 Icon" content="fa-calendar" title="Calendar"/>
+<meta name="select:Link 3 Icon" content="fa-camera" title="Camera"/>
+<meta name="select:Link 3 Icon" content="fa-clock-o" title="Clock"/>
+<meta name="select:Link 3 Icon" content="fa-code" title="Code"/>
+<meta name="select:Link 3 Icon" content="fa-comments-o" title="Comments"/>
+<meta name="select:Link 3 Icon" content="fa-envelope" title="Envelope"/>
+<meta name="select:Link 3 Icon" content="fa-facebook-square" title="Facebook"/>
+<meta name="select:Link 3 Icon" content="fa-flickr" title="Flickr"/>
+<meta name="select:Link 3 Icon" content="fa-google" title="Google"/>
+<meta name="select:Link 3 Icon" content="fa-heart" title="Heart"/>
+<meta name="select:Link 3 Icon" content="fa-instagram" title="Instagram"/>
+<meta name="select:Link 3 Icon" content="fa-lastfm-square" title="Last.FM"/>
+<meta name="select:Link 3 Icon" content="fa-lightbulb-o" title="Lightbulb"/>
+<meta name="select:Link 3 Icon" content="fa-bolt" title="Lightning"/>
+<meta name="select:Link 3 Icon" content="fa-moon-o" title="Moon"/>
+<meta name="select:Link 3 Icon" content="fa-music" title="Music Note"/>
+<meta name="select:Link 3 Icon" content="fa-pencil" title="Pencil"/>
+<meta name="select:Link 3 Icon" content="fa-pinterest" title="Pinterest"/>
+<meta name="select:Link 3 Icon" content="fa-rss" title="RSS"/>
+<meta name="select:Link 3 Icon" content="fa-search" title="Search"/>
+<meta name="select:Link 3 Icon" content="fa-skype" title="Skype"/>
+<meta name="select:Link 3 Icon" content="fa-smile-o" title="Smiley"/>
+<meta name="select:Link 3 Icon" content="fa-star" title="Star"/>
+<meta name="select:Link 3 Icon" content="fa-tags" title="Tags"/>
+<meta name="select:Link 3 Icon" content="fa-twitch" title="Twitch"/>
+<meta name="select:Link 3 Icon" content="fa-twitter" title="Twitter"/>
+<meta name="select:Link 3 Icon" content="fa-umbrella" title="Umbrella"/>
+<meta name="select:Link 3 Icon" content="fa-user" title="User"/>
+<meta name="select:Link 3 Icon" content="fa-youtube-play" title="YouTube"/>
+ 
+<!-- COLOR -->
+ 
+<meta name="color:Background" content="#FFFFFF"/>
+<meta name="color:Header Background" content="#000000"/>
+
+<meta name="color:Sidebar Background" content="#FFFFFF"/>
+<meta name="color:Sidebar Link Background" content="#E5E5E5"/>
+<meta name="color:Sidebar Link Text" content="#000000"/>
+<meta name="color:Sidebar Selected Background" content="#000000"/>
+<meta name="color:Sidebar Selected Text" content="#FFFFFF"/>
+
+<meta name="color:About Title" content="#222222"/>
+<meta name="color:About Headline" content="#888888"/>
+<meta name="color:About Description" content="#555555"/>
+
+<meta name="color:Icon Link Background" content="#000000"/>
+<meta name="color:Icon Link Text" content="#FFFFFF"/>
+<meta name="color:Icon Link Background Hover" content="#E5E5E5"/>
+<meta name="color:Icon Link Text Hover" content="#000000"/>
+<meta name="color:Other Links" content="#000000"/>
+ 
+<meta name="color:Posts" content="#FFFFFF"/>
+<meta name="color:Post Title" content="#000000" />
+<meta name="color:Link" content="#000000" />
+<meta name="color:Link Hover" content="#888888" />
+<meta name="color:Text" content="#333333" />
+<meta name="color:Bold" content="#000000" />
+<meta name="color:Italic" content="#000000" />
+<meta name="color:Blockquote Background" content="#E5E5E5" />
+ 
+<meta name="color:Question Background" content="#E5E5E5" />
+<meta name="color:Question Text" content="#000000" />
+<meta name="color:Question Shadow" content="#CCCCCC" />
+ 
+<meta name="color:Scrollbar" content="#555555"/>
+<meta name="color:Scrollbar Background" content="#999999"/>
+ 
+<!----------------------- TUMBLR SCRIPTS ----------------------------->
+ 
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+ 
+<script type="text/javascript" src="http://static.tumblr.com/kwlg23j/QXAlgobzw/jquery-1.5.min.js"></script>
+<script type="text/javascript" src="http://static.tumblr.com/vaqsgdj/m5lloo7bn/jquery.style-my-tooltips.js"></script>
+<script>(function($){$(document).ready(function(){$("[title]").style_my_tooltips({tip_delay_time:100});});})(jQuery);</script>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js" type="text/javascript"></script>
+<script type="text/javascript">
+$(function(){
+var stickyRibbonTop = $('#sidebar').offset().top;
+$(window).scroll(function(){
+if( $(window).scrollTop() > stickyRibbonTop ) {
+$('#sidebar').css({position: 'fixed', top: '0px'});
+} else {
+$('#sidebar').css({position: 'static', top: '0px'});
+}
+});
+});
+</script>
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script><script src="http://static.tumblr.com/wgijwsy/Ebfm2v4gy/jquery.masonry.min.js"></script><script>$(document).ready(function() {$('.tabs .tab-links a').on('click', function(e)  {var currentAttrValue = $(this).attr('href');$('.tabs ' + currentAttrValue).fadeIn(0).siblings().hide();$(this).parent('li').addClass('active').siblings().removeClass('active');e.preventDefault();});});</script>
+ 
+<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+ 
+<title>{Title}</title>
+<link rel="shortcut icon" href="{Favicon}">
+{block:Description}<meta name="description" content="{MetaDescription}" />{/block:Description}
+<link rel="alternate" type="application/rss+xml" href="{RSS}" />
+ 
+<style type="text/css">
+ 
+/* --------------------------- SCROLL ------------------------------ */
+ 
+::-webkit-scrollbar-thumb:vertical
+   {background-color:{color:Scrollbar}; height: 0px;}
+::-webkit-scrollbar
+   {height:0px; width:6px; background-color:{color:Scrollbar Background};}
+.tumblrAutoPager_page_info, .tumblrAutoPager_page_separator
+    {display:none;}
+ 
+/* ------------------------- SMT TOOLTIP --------------------------- */
+ 
+#s-m-t-tooltip {position:absolute; background-color:{color:Sidebar Selected Background}; padding:5px; z-index:99999999999999; display:inline-block; text-transform:uppercase; color:{color:Sidebar Selected Text}; letter-spacing:1px; margin:3px; -webkit-transition:all 0s ease-out; -moz-transition:all 0s ease-out; transition:all 0s ease-out;}
+ 
+/* ----------------------------- BODY ------------------------------ */
+ 
+body {background-color:{color:Background}; color:{color:Text}; font-family:consolas; background-attachment:fixed; font-size:12px; margin:0;}
+ 
+a {text-decoration:none; color:{color:Link};}
+a:hover {text-decoration:none; color:{color:Link Hover};}
+ 
+b, strong {color:{color:Bold};}
+i, em {color:{color:Italic};}
+ 
+#credits {position:fixed; bottom:18px; left:5px;}
+a #credits {color:{color:Text}!important; {block:ifPostBackground}color:{color:Posts}!important;{/block:ifPostBackground}}
+#first_credit {position:fixed; opacity:1;}
+#credits:hover #first_credit {opacity:0;}
+#second_credit {position:fixed; opacity:0;}
+#credits:hover #second_credit {opacity:1;}
+ 
+/* ------------ BLOCKQUOTES (TOO MANY IF YOU ASK ME)  -------------- */
+ 
+blockquote {margin:10px 0px; display:block; position:relative; border:5px solid {color:Blockquote Background}; background-color:{color:Blockquote Background}; padding:0px 10px;} blockquote img {max-width:100%!important;} blockquote:before {content:''; position:absolute; height:100%; padding:5px 0px; top:-5px; left:-5px;}
+ 
+blockquote blockquote, blockquote blockquote blockquote blockquote, blockquote blockquote blockquote blockquote blockquote blockquote, blockquote blockquote blockquote blockquote blockquote blockquote blockquote blockquote {margin:10px; background-color:{color:Background};!important; border:5px solid {color:Background};{block:ifPostBackground}background-color:{color:Posts};!important; border:5px solid {color:Posts};{/block:ifPostBackground}
+}
+ 
+blockquote blockquote blockquote, blockquote blockquote blockquote blockquote blockquote, blockquote blockquote blockquote blockquote blockquote blockquote blockquote, blockquote blockquote blockquote blockquote blockquote blockquote blockquote blockquote blockquote {margin:10px; background-color:{color:Blockquote Background}!important; border:5px solid {color:Blockquote Background};}
+ 
+/* ------------------------- THEME STUFF --------------------------- */
+ 
+#header_image {position:absolute; top:0px; left:0px; width:100%; height:{select:Header Height}; margin-bottom:0px; background-color:{color:Header Background}; background-image:url('{image:Header}'); background-position:{select:Header Background Position}; {block:ifHeaderBackgroundStretch}-webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;{/block:ifHeaderBackgroundStretch} background-repeat:repeat;}
+
+#fake_header {position:relative; top:0px; left:0px; width:100%; height:{select:Header Height};}
+
+#content {margin:auto;
+{block:ifPostBackground}
+{block:if400pxPosts}width:890px;{/block:if400pxPosts}
+{block:if500pxPosts}width:990px;{/block:if500pxPosts}
+{block:ifPostBackground}
+{block:ifNotPostBackground}
+{block:if400pxPosts}width:850px;{/block:if400pxPosts}
+{block:if500pxPosts}width:950px;{/block:if500pxPosts}
+{block:ifNotPostBackground}}
+
+#sidebar {position:relative; margin-top:0px;}
+
+/* ----------------------------- TAB  ------------------------------ */
+
+.tabs {display:inline-block;}
+ 
+.tab-links:after {display:block; clear:both; content:'';}
+    
+.tab-links {text-align:left; margin-top:50px; width:440px;}
+ 
+.tab-links li {margin:0px 42px 0px -40px; position:relative; display:inline-block; list-style:none; height:30px; line-height:14px;}
+ 
+.tab-links a {display:inline-block; background-color:{color:Sidebar Link Background}; height:15px; line-height:15px; width:141px; padding:15px 25px; text-align:left; color:{color:Sidebar Link Text}; font-size:13px; {block:ifAskBoxTab} width:112px; {/block:ifAskBoxTab}}
+
+.tab-links .message_link {width:0px!important; margin-right:-50px!important;}
+
+.tab-links a .fa {color:{color:Sidebar Link Text};}
+ 
+.tab-links a:hover, li.active a, li.active a:hover, .tab-links a:hover .fa, li.active a .fa, li.active a:hover .fa {background-color:{color:Sidebar Selected Background}; color:{color:Sidebar Selected Text};}
+
+.fa-ask {font-size:14px; margin-left:-6px;}
+ 
+.tab-content {padding-top:15px;}
+ 
+.tab {display:none;}
+ 
+.tab.active {display:block;}
+
+#contented {width:390px; margin-top:10px; padding:0px;
+{block:ifSidebarBackground}
+background-color:{color:Sidebar Background};
+padding:5px 20px 20px 20px; width:350px!important;
+{/block:ifSidebarBackground}}
+
+/* -------------------------- ABOUT TAB ---------------------------- */
+
+#about_image img {width:162px; height:162px; {block:ifSidebarBackground}width:142px; height:142px;{/block:ifSidebarBackground} float:left; margin-right:20px; margin-bottom:10px; {block:ifRoundedIconImage} -webkit-border-radius:145px; -moz-border-radius:145px; border-radius:145px; {/block:ifRoundedIconImage}}
+
+#about_title a {font-family:'arial'; font-weight:700; font-size:{select:Title Size}; padding-top:0px; color:{color:About Title};}
+
+#about_headline {font-size:13px; margin-top:10px; color:{color:About Headline};}
+
+#about_description {text-align:justify; margin-top:10px; color:{color:About Description};}
+
+/* -------------------------- LINKS TAB ---------------------------- */
+
+#inlink {width:182px; margin-top:0px;}
+#inlink a {display:inline-block; background-color:{color:Icon Link Background}; width:30px; height:30px; margin:0px 2px 10px 0px; text-align:center; padding:23px 24px 23px 23px;}
+#inlink .fa {color:{color:Icon Link Text};}
+#inlink a:hover {background-color:{color:Icon Link Background Hover};}
+#inlink a:hover .fa {color:{color:Icon Link Text Hover};}
+
+.sublink {margin-top:-173px; margin-left:171px;}
+
+.sublink a {margin-left:7px; font-size:13px; line-height:27px; color:{color:Other Links};}
+
+.sublink a:before {background:{color:Other Links}; height:1px; width:20px; margin-bottom:3px; margin-right:4px; content:" "; display:inline-block;}
+.sublink a:hover:before {width:40px;}
+
+.sublink a, .sublink a:hover, .sublink a:before, .sublink a:hover:before {-webkit-transition: all 0.3s ease-in-out; -moz-transition: all 0.3s ease-in-out; -o-transition: all 0.3s ease-in-out; -ms-transition: all 0.3s ease-in-out; transition: all 0.3s ease-in-out;}
+
+/* --------------------------- ASK TAB ----------------------------- */
+
+#message_frame {margin-top:0px;}
+ 
+/* ---------------------------- POSTS ------------------------------ */
+ 
+#posts {position:absolute; top:{select:Header Height}; margin:0px 0px 0px 450px;}
+ 
+.entry {position:relative; padding:0px; margin:50px 0px;
+{block:if400pxPosts}width:400px;{/block:if400pxPosts}
+{block:if500pxPosts}width:500px;{/block:if500pxPosts};
+{block:ifPostBackground}background-color:{color:Posts}; padding:20px;{/block:ifPostBackground}
+}
+ 
+.entry h1 {font-size:22px; color:{color:Post Title}; font-weight:normal; text-transform:none; text-align:left; line-height:26px; margin:0px; font-family:'arial'; font-weight:700; color:#222;}
+
+.entry img {{block:if400pxPosts}max-width:400px;{/block:if400pxPosts}
+{block:if500pxPosts}max-width:500px;{/block:if500pxPosts}}
+ 
+.entry_body {margin:0px 5px;}
+ 
+/* ---------------------------- CHAT ------------------------------- */
+ 
+.chat .line {margin-bottom:8px;}
+.label {color:{color:Bold}; text-transform:uppercase; padding-right:2px; letter-spacing:1px;}
+ 
+/* --------------------------- QUOTE ------------------------------- */
+ 
+.short_quote, .medium_quote, .long_quote {height:auto; text-align:left; font-family:'arial'; font-weight:700; color:{color:Post Title};}
+.short_quote {font-size:22px; line-height:26px;}
+.medium_quote {font-size:20px; line-height:24px;}
+.long_quote {font-size:18px; line-height:22px;}
+.source {text-align:right; font-style:none; font-size:12px; margin-top:10px; margin-bottom:-5px; font-family:'consolas'; font-weight:400; color:{color:Text};}
+ 
+/* --------------------------- LINKS ------------------------------- */
+ 
+#linktitle {{block:if400pxPosts}width:400px;{/block:if400pxPosts}
+{block:if500pxPosts}width:500px;{/block:if500pxPosts}}
+ 
+.linktexttitle {font-size:14px; text-transform:uppercase; letter-spacing:1px; line-height:20px; text-align:left; background-color:{color:Link}; text-align:center; padding:5px 3px 3px 3px; opacity:0.8; padding:10px 0px;}
+.linktexttitle:hover {opacity:1;}
+a .linktexttitle {color:{color:Background}; {block:ifPostBackground}color:{color:Posts}!important;{/block:ifPostBackground}}
+.linkdescription {padding:0px; margin:0px; text-align:left;}
+ 
+/* --------------------------- AUDIO ------------------------------- */
+ 
+#audentryprob {display:block; position:relative; min-height:120px; text-align:left;}
+.audentry {{block:if400pxPosts}width:400px;{/block:if400pxPosts}
+{block:if500pxPosts}width:500px;{/block:if500pxPosts} position:relative; padding:0px; min-height:120px;}
+ 
+.audioplayercircle {position:absolute; z-index:3; background:#fff; -webkit-border-radius:50px; -moz-border-radius:50px; top:30px; left:30px; opacity:0.5;}
+.audioplayercircle:hover {opacity:1;}
+.audioplayer {width:20px; height:30px; overflow:hidden; margin:17px 24px 13px 16px;}
+ 
+.audiodata, .audiodata2, .audiodata3, .audiodata4 {text-transform:none; height:16px; padding:8px 0px 0px 0px!important; vertical-align:middle;}
+.audiodata b, .audiodata2 b, .audiodata3 b, .audiodata4 b {text-transform:uppercase; letter-spacing:1px; font-weight:normal;}
+.audiodata4 {padding:10px 0px 13px 0px!important;}
+ 
+/* ------------------------- ASK POSTS ----------------------------- */
+ 
+#question {{block:if400pxPosts}width:370px;{/block:if400pxPosts}
+{block:if500pxPosts}width:470px;{/block:if500pxPosts} padding:10px 15px; background-color: {color:Question Background}; color:{color:Question Text}; -webkit-box-shadow:0px 3px 3px 0px {color:Question Shadow}; -moz-box-shadow:0px 3px 3px 0px {color:Question Shadow}; box-shadow:0px 3px 3px 0px {color:Question Shadow}}
+ 
+#asker {text-align:left; vertical-align:bottom; margin-top:2px; margin-left:20px; letter-spacing:1px; text-transform:uppercase; line-height:18px;}
+ 
+#asker a {color:{color:Text}}
+#asker a:hover {color:{color:Link Hover}}
+ 
+#asker img {float:left; max-height:16px; margin-left: 26px; margin-right: 5px; -webkit-border-radius:10px; -moz-border-radius:10px; border-radius:10px; -webkit-filter: grayscale(1); opacity:0.9;}
+ 
+#arrow {width: 13px; height: 7px; font-size:32px; margin-top:-15px; margin-left:18px; font-family:'trebuchet ms'; color:{color:Question Background}}
+ 
+/* --------------------------- ENDING ------------------------------ */
+ 
+#ending {{block:if400pxPosts}width:400px;{/block:if400pxPosts} {block:if500pxPosts}width:500px;{/block:if500pxPosts}
+overflow:hidden; margin:20px 0px 0px 0px;}
+#ending a, #ending a .fa {color:{color:Text}}
+#ending a:hover, #ending a:hover .fa {color:{color:Link Hover};}
+   
+#noslide {margin-top:0px; position:relative;}
+#slide {margin-right:20px; text-transform:uppercase;}
+ 
+.fa-notes {font-size:11px;}
+.fa-reblog {font-size:10px;}
+.fa-via {font-size:10px;}
+ 
+#post_tags {line-height:14px; margin:5px 0px 0px 0px; {block:if400pxPosts}width:400px;{/block:if400pxPosts} {block:if500pxPosts}width:500px;{/block:if500pxPosts} padding:0px 0px 5px 0px; text-transform:uppercase;}
+#post_tags a {margin:0px 10px 5px 0px; font-size:10px; letter-spacing:1px;}
+ 
+/* -------------------------- PERMALINK ---------------------------- */
+ 
+.permalink {position:relative!important; float:none; line-height:18px; letter-spacing:1px; color:{color:Text}; text-transform:uppercase; text-align:center; {block:if400pxPosts}width:400px;{/block:if400pxPosts} {block:if500pxPosts}width:500px;{/block:if500pxPosts} {block:ifPostBackground} color:{color:Posts};{/block:ifPostBackground}}
+.permalink blockquote {padding:4px; padding-left:14px; margin-left:3px;}
+ol.notes {padding:0px; list-style-type:none; background:transparent; letter-spacing:1px; padding-top:10px; margin-top:10px; margin-bottom:0px;}
+ol.notes li.note {padding: 1px; text-align: left;}
+.notes img {border-radius:8px; vertical-align:middle; width:10px; position:relative; margin-top:-2px; margin-right:5px;}
+.post_tags {{block:if400pxPosts}width:400px;{/block:if400pxPosts} {block:if500pxPosts}width:500px;{/block:if500pxPosts} letter-spacing:1px; margin:0px 0px 30px 0px;}
+.post_tags a {display:inline-block; margin:3px; background-color:{color:Link}; color:{color:Background}; padding:4px 6px 3px 6px; opacity:0.7; word-spacing:break-word;}
+.post_tags a:hover {opacity:1; border-bottom:none;}
+ 
+/* ------------------------- PAGINATION ---------------------------- */
+
+#pages {position:relative; width:390px; text-align:right; margin-top:20px;}
+#pages a {display:inline-block; color:{color:Text}; margin-left:20px; font-size:17px; {block:ifPostBackground} color:{color:Posts};{/block:ifPostBackground}}
+#pages a:hover {color:{color:Link Hover};}
+ 
+/* ------------------------ CUSTOM CSS ----------------------------- */
+ 
+{CustomCSS}
+ 
+</style>
+</head>
+ 
+<body>
+ 
+<a href="http://zeldathemes.tumblr.com/"><div id="credits">
+<div id="first_credit">ZT</div>
+<div id="second_credit">ZELDATHEMES</div></div></a>
+
+<div id="header_image"></div>
+
+<div id="content">
+
+<div id="fake_header"></div>
+<div id="sidebar">
+<div class="tabs">
+<ul class="tab-links">
+    <li class="active"><a href="#about">About</a></li>
+    <li><a href="#links">Links</a></li>
+    {block:ifAskBoxTab}
+    <li><a class="message_link" href="#message"><i class="fa fa-envelope-o fa-ask"></i></a></li>
+    {/block:ifAskBoxTab}
+</ul></div>
+
+<div id="contented">
+
+<div class="tabs">
+<div class="tab-content">
+
+<div id="about" class="tab active">
+
+{block:ifIconImage}
+    <div id="about_image"><a href="/"><img src="{image:Icon}"></a></div>
+{/block:ifIconImage}
+<div id="about_title"><a href="/">{text:About Title}</a></div>
+<div id="about_headline">{text:About Headline}</div>
+<div id="about_description">{Description}</div>
+
+</div>
+
+<div id="links" class="tab">
+ 
+<div id="inlink">
+    <a href="/" title="{text:Home Link Name}">
+        <i class="fa {select:Home Link Icon} fa-3x"></i>
+    </a>
+    <a href="{text:Link 1 URL}" title="{text:Link 1 Name}">
+        <i class="fa {select:Link 1 Icon} fa-3x"></i>
+    </a>
+    <a href="{text:Link 2 URL}" title="{text:Link 2 Name}">
+        <i class="fa {select:Link 2 Icon} fa-3x"></i>
+    </a>
+    <a href="{text:Link 3 URL}" title="{text:Link 3 Name}">
+        <i class="fa {select:Link 3 Icon} fa-3x"></i>
+    </a>
+</div>
+ 
+<div class="sublink">
+{block:ifShowLink4}
+<a href="{text:Link 4 URL}">{text:Link 4 Name}</a><br>
+{/block:ifShowLink4}
+{block:ifShowLink5}
+<a href="{text:Link 5 URL}">{text:Link 5 Name}</a><br>
+{/block:ifShowLink5}
+{block:ifShowLink6}
+<a href="{text:Link 6 URL}">{text:Link 6 Name}</a><br>
+{/block:ifShowLink6}
+{block:ifShowLink7}
+<a href="{text:Link 7 URL}">{text:Link 7 Name}</a><br>
+{/block:ifShowLink7}
+{block:ifShowLink8}
+<a href="{text:Link 8 URL}">{text:Link 8 Name}</a><br>
+{/block:ifShowLink8}
+{block:ifShowLink9}
+<a href="{text:Link 9 URL}">{text:Link 9 Name}</a>
+{/block:ifShowLink9}
+</div>
+ 
+ 
+</div>
+
+{block:ifAskBoxTab}
+<div id="message" class="tab">
+<div id="message_frame">
+{block:ifSidebarBackground}
+<iframe frameborder="0" src="http://www.tumblr.com/ask_form/{text:Your URL}.tumblr.com" width="350px" height="255px" style="line-height: 1.4;"></iframe>
+{block:ifSidebarBackground}
+{block:ifNotSidebarBackground}
+<iframe frameborder="0" src="http://www.tumblr.com/ask_form/{text:Your URL}.tumblr.com" width="390px" height="255px" style="line-height: 1.4;"></iframe>
+{block:ifNotSidebarBackground}
+</div>
+
+</div>
+{/block:ifAskBoxTab}
+    
+</div></div></div>
+
+{block:Pagination}
+<div id="pages">
+{block:PreviousPage}
+    <a href="{PreviousPage}" title="Previous Page">←</a>
+{/block:PreviousPage}
+{block:NextPage}
+    <a href="{NextPage}" title="Next Page">→</a>
+{/block:NextPage}
+</div>
+{block:Pagination}
+    
+</div>
+
+<div id="posts">
+ 
+{block:Posts}
+ 
+{block:ContentSource}
+<!-- {SourceURL}{block:SourceLogo}<img src="{BlackLogoURL}"
+width="{LogoWidth}" height="{LogoHeight}" alt="{SourceTitle}" />
+{/block:SourceLogo}
+{block:NoSourceLogo}{SourceLink}{/block:NoSourceLogo} -->
+{/block:ContentSource}
+ 
+<div class="entry">
+ 
+{block:ContentSource}
+<!-- {SourceURL}{block:SourceLogo}<img src="{BlackLogoURL}"
+width="{LogoWidth}" height="{LogoHeight}" alt="{SourceTitle}" />
+{/block:SourceLogo}
+{block:NoSourceLogo}{SourceLink}{/block:NoSourceLogo} -->
+{/block:ContentSource}
+ 
+{block:Text}
+{block:Title}<h1>{Title}</h1>{/block:Title}
+<div style="margin-bottom:20px;">{Body}</div>
+{/block:Text}
+ 
+{block:Photo}
+{block:if400pxPosts}<img src="{PhotoURL-400}" width="400px" alt="{PhotoAlt}">{/block:if400pxPosts}
+{block:if500pxPosts}<img src="{PhotoURL-500}" width="500px" alt="{PhotoAlt}">{/block:if500pxPosts}
+{block:Caption}{Caption}{/block:Caption}
+{/block:Photo}
+ 
+{block:Photoset}
+{block:if400pxPosts}{Photoset-400}{/block:if400pxPosts}
+{block:if500pxPosts}{Photoset-500}{/block:if500pxPosts}
+{block:Caption}{Caption}{/block:Caption}
+{/block:Photoset}
+ 
+{block:Quote}<div class="{Length}_quote">{Quote}{block:Source}<div class="source">— {Source}</div>{/block:Source}</div>{/block:Quote}
+ 
+{block:Link}
+<a href="{URL}" class="linkpost" target="_blank"><div id="linktitle"><div class="linktexttitle">{Name}</div></div></a>
+{block:Description}
+<div class="linkdescription">{Description}</div>
+{/block:Description}
+{/block:Link}
+ 
+{block:Chat}
+{block:Title}<h1>{Title}</h1>{/block:Title}
+<div class="chat">
+{block:Lines}<div class="chat"><div class="line {Alt}">
+<div class="{Alt} user_{UserNumber}">
+{block:Label}
+<span class="label">{Label}</span>
+{/block:Label}
+{Line}</div>
+</div></div>
+{/block:Lines}
+</div>
+{/block:Chat}
+ 
+{block:Audio}<div id="audentryprob"><div class="audentry"><img src="http://static.tumblr.com/2lqtwbf/hLRlz1vgy/2.png" alt="default album art" width="120" height="120" style="position:absolute; vertical-align:middle;" />{block:AlbumArt}<img width="120" height="120" src="{AlbumArtURL}" style="position:absolute;" />{/block:AlbumArt}<div class="audioplayercircle"><div class="audioplayer">{AudioPlayerWhite}</div></div><div class="something"><table style="float:right;"
+{block:if400pxPosts}width="270px"{/block:if400pxPosts}
+{block:if500pxPosts}width="370px"{/block:if500pxPosts} cellspacing="1px" cellpadding="0">{block:TrackName}<tr><td class="audiodata"><b>Song: </b>{TrackName}</td></tr>{/block:TrackName}{block:Artist}<tr><td class="audiodata2"><b>Artist: </b> {Artist}</td></tr>{/block:Artist}{block:Album}<tr><td class="audiodata3"><b>Album: </b>{Album}</td></tr>{/block:Album}<tr><td class="audiodata4"><b>Plays: </b>{FormattedPlayCount}</td></tr>{block:ExternalAudio}<tr><td class="audiodata"><a href="{ExternalAudioURL}" target="_blank">Source</a></td></tr>{/block:ExternalAudio}</table></div></div>{block:Caption}<tr><td class="aucap">{Caption}</td></tr>{/block:Caption}</div>{/block:Audio}
+ 
+{block:Video}
+{block:if400pxPosts}{Video-400}{/block:if400pxPosts}
+{block:if500pxPosts}{Video-500}{/block:if500pxPosts}
+{block:Caption}{Caption}{/block:Caption}
+{/block:Video}
+ 
+{block:Answer}
+<div id="question">{Question}</div>
+<div id="arrow">◥</div><br>
+<div id="asker"><img src="{AskerPortraitURL-24}">{Asker}</div>
+{Answer}
+{/block:answer}
+ 
+{block:Date}
+ 
+<div id="ending">
+<div class="rnotes">
+<div id="noslide">
+<span id="slide">
+<a href="{Permalink}">{TimeAgo}</a>
+</span>
+<span id="slide">
+<a href="{Permalink}"><i class="fa fa-eye fa-notes"></i> {NoteCount}</a>
+</span>
+{block:RebloggedFrom}
+<span id="slide">
+<i class="fa fa-at fa-via"></i> 
+<a href="{ReblogParentURL}" title="{ReblogParentName}" target="_blank">VIA</a> - 
+<a href="{ReblogRootURL}" title="{ReblogRootName}" target="_blank">SOURCE</a>
+</span>
+{/block:RebloggedFrom}
+<span id ="slide">
+<a href="{ReblogURL}"><i class="fa fa-cube fa-reblog"></i> Reblog</a>
+</span>
+
+</div>
+   
+</div>
+</div>
+   
+{block:IfShowTags}
+{block:HasTags}
+<div id="post_tags">
+{block:Tags}<a href="{TagURL}" target="_blank">#{Tag}</a>{/block:Tags}
+</div>
+{/block:HasTags}
+{/block:IfShowTags}
+   
+{/block:Date}</div>
+ 
+{block:PermalinkPage}{block:Date}<div class="entry" style="background-color:transparent!important;"><div class="permalink"><center>{block:HasTags}<div class="post_tags">{block:Tags}<a href="{TagURL}">{Tag}</a>{/block:Tags}</div>{/block:HasTags}</center>{block:PostNotes}{PostNotes}{/block:PostNotes}</div></div>{/block:Date}{/block:PermalinkPage}
+ 
+{/block:Posts}
+</div>
+
+</div>
+ 
+</body>
+</html>
